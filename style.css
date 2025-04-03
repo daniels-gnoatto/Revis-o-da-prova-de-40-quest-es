@@ -1,0 +1,21 @@
+body{
+    background-color: cadetblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar {
+    color: white;
+    background-color: darkcyan;
+    padding: 2px;
+    margin: 0px;
+    text-align: center;
+}
+
+#logo {
+    padding: 2px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: white;
+}
+
