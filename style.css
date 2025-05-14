@@ -1,21 +1,87 @@
-body{
-    background-color: cadetblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-#navbar {
-    color: white;
-    background-color: darkcyan;
-    padding: 2px;
-    margin: 0px;
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
     text-align: center;
 }
 
-#logo {
-    padding: 2px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    border: white;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero-section {
+    background: #eaeaea;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.product-section {
+    padding: 20px 0;
+    background: #f4f4f4;
+}
+
+.product {
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.about-section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    clear: both;
+}
